@@ -2325,7 +2325,18 @@ nav:after {
     color: #333333;
   }
 }
+
+
+
+@media (max-width: 1024px ) {
+  #titular2{
+    visibility: hidden;
+  }
+}
 @media (max-width: 991px ) {
+  #titular2{
+    visibility: hidden;
+  }
   .nav-main-menu:not(.small-screen) {
     display: none;
   }
